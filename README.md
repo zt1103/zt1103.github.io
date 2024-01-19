@@ -54,7 +54,60 @@ public enum Value{
 You want to create the deck. You could write out 52 lines of code, one to add each card (Ace of Spades, Two of Spades, .... King of Hearts):
 
 
-(Example to come)
+```
+this.Add(new Card( Suit.Diamond,Value.Ace));
+		this.Add(new Card(Suit.Diamond, Value.Two));
+		this.Add(new Card(Suit.Diamond, Value.Three));
+		this.Add(new Card(Suit.Diamond, Value.Four));
+		this.Add(new Card(Suit.Diamond, Value.Five));
+		this.Add(new Card(Suit.Diamond, Value.Six));
+		this.Add(new Card(Suit.Diamond, Value.Seven));
+		this.Add(new Card(Suit.Diamond, Value.Eight));
+		this.Add(new Card(Suit.Diamond, Value.Nine));
+		this.Add(new Card(Suit.Diamond, Value.Ten));
+		this.Add(new Card(Suit.Diamond, Value.Jack));
+		this.Add(new Card(Suit.Diamond, Value.Queen));
+		this.Add(new Card(Suit.Diamond, Value.King));
+		this.Add(new Card(Suit.Clubs, Value.Ace));
+		this.Add(new Card(Suit.Clubs, Value.Two));
+		this.Add(new Card(Suit.Clubs, Value.Three));
+		this.Add(new Card(Suit.Clubs, Value.Four));
+		this.Add(new Card(Suit.Clubs, Value.Five));
+		this.Add(new Card(Suit.Clubs, Value.Six));
+		this.Add(new Card(Suit.Clubs, Value.Seven));
+		this.Add(new Card(Suit.Clubs, Value.Eight));
+		this.Add(new Card(Suit.Clubs, Value.Nine));
+		this.Add(new Card(Suit.Clubs, Value.Ten));
+		this.Add(new Card(Suit.Clubs, Value.Jack));
+		this.Add(new Card(Suit.Clubs, Value.Queen));
+		this.Add(new Card(Suit.Clubs, Value.King));
+		this.Add(new Card(Suit.Hearts, Value.Ace));
+		this.Add(new Card(Suit.Hearts, Value.Two));
+		this.Add(new Card(Suit.Hearts, Value.Three));
+		this.Add(new Card(Suit.Hearts, Value.Four));
+		this.Add(new Card(Suit.Hearts, Value.Five));
+		this.Add(new Card(Suit.Hearts, Value.Six));
+		this.Add(new Card(Suit.Hearts, Value.Seven));
+		this.Add(new Card(Suit.Hearts, Value.Eight));
+		this.Add(new Card(Suit.Hearts, Value.Nine));
+		this.Add(new Card(Suit.Hearts, Value.Ten));
+		this.Add(new Card(Suit.Hearts, Value.Jack));
+		this.Add(new Card(Suit.Hearts, Value.Queen));
+		this.Add(new Card(Suit.Hearts, Value.King));
+		this.Add(new Card(Suit.Spades, Value.Ace));
+		this.Add(new Card(Suit.Spades, Value.Two));
+		this.Add(new Card(Suit.Spades, Value.Three));
+		this.Add(new Card(Suit.Spades, Value.Four));
+		this.Add(new Card(Suit.Spades, Value.Five));
+		this.Add(new Card(Suit.Spades, Value.Six));
+		this.Add(new Card(Suit.Spades, Value.Seven));
+		this.Add(new Card(Suit.Spades, Value.Eight));
+		this.Add(new Card(Suit.Spades, Value.Nine));
+		this.Add(new Card(Suit.Spades, Value.Ten));
+		this.Add(new Card(Suit.Spades, Value.Jack));
+		this.Add(new Card(Suit.Spades, Value.Queen));
+		this.Add(new Card(Suit.Spades, Value.King));
+```
 
 You could write nested loops and loop through values and suits, create cards and add them to the list:
 ```
