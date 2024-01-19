@@ -193,9 +193,13 @@ And that is one use of SelectMany!
 Topics to be covered in the future 
 
 Lambda Functions and you
+
 Generic Types 
+
 Interfaces
+
 Other LINQ Functions
+
 Extension Methods more generally
 
 
